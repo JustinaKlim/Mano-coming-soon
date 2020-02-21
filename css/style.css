@@ -1,0 +1,99 @@
+body {
+    width: 100%;
+}
+
+.hero-img {
+    background-image: linear-gradient(to bottom, rgba(225, 103, 255, 0.6), rgba(253, 253, 253, 0.8), rgba(107, 213, 255, 0.8)), url(/img/photo-1449034446853-66c86144b0ad.jpeg);
+    background-cover: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+    position: fixed;
+    filter: brightness(85%);
+    
+}
+    .section-hero {
+        display: inline-block;
+        width: 35%;
+        margin-left: calc( (100% - 35%) / 2 );
+        text-align: center;
+    }
+
+        .logo {
+            height: 40px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 30px;
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+
+        p {
+            font-size: 11px;
+            color: grey;
+            padding: 8px 0;
+        }
+
+    .numbers {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        padding: 0 10px;
+        color: white;
+    }
+
+        .number-column {
+            display: inline-block;
+            float:left;
+            width: 25%;
+        }
+
+        .number-column p {
+            color: white;
+        }
+
+    form {
+        width: 100%;
+        display: inline-block;
+        padding: 0 30px;
+        margin-top: 20px;
+    }
+
+        .input-one {
+            display: inline-block;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid rgb(255, 255, 255);
+            padding-bottom: 7px;
+            width: 100%;
+            color: white;
+            
+        }
+
+        ::placeholder { 
+            color: white;
+          }
+
+        .btn {
+            display: inline-block;
+            background-color: #ea1e63;
+            text-decoration: none;
+            color: white;
+            padding: 8px 30px;
+            font-size: 15px;
+            font-weight: 500;
+            text-transform: capitalize;
+            border-radius: 2px;
+            margin-top: 20px;
+        }
+
+        ion-icon {
+            color: light;
+            font-size: 40px;
+            margin-top: 15px;
+          }
