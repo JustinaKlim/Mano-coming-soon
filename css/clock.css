@@ -1,0 +1,30 @@
+.clock {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    padding: 0 120px;
+    color: white;
+    margin-top: 30px;
+}
+
+    .clock-column {
+        display: inline-block;
+        float: left;
+        width: 25%;
+        padding: 0;
+    }
+
+    .clock-column > h2 {
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 35px;
+        
+    }
+
+    .clock-column > p {
+        font-size: 10px;
+        line-height: 10px;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-top: 10px;
+    }
