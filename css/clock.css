@@ -2,7 +2,7 @@
     display: inline-block;
     float: left;
     width: 100%;
-    padding: 0 120px;
+    padding: 0 130px;
     color: white;
     margin-top: 30px;
 }
@@ -15,7 +15,7 @@
     }
 
     .clock-column > h2 {
-        font-weight: 800;
+        font-weight: 900;
         font-size: 35px;
         line-height: 35px;
         
