@@ -1,80 +1,15 @@
-.container {
-    display: inline-block;
-    width: 100%;
-}
 
-    .container.hero {
-        background-color: darkblue;
-        background-image: url(../img/Merknad_2020-02-24_125822.jpg);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        padding-top: 10px;
-        padding-bottom: 80px;
+/*STRUCTURE*/
+
+    .container {
+        display: inline-block;
+        width: 100%;
     }
-
-        .hero-row > img {
-            height: 40px;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-
-        .hero-row > h1 {
-            font-size: 30px;
-            text-transform: uppercase;
-            font-weight: 900;
-            margin-bottom: 10px;
-        }
-
-        .hero-row > p {
-            font-size: 11px;
-            color: rgb(139, 139, 139);
-            padding: 0 120px;
-        }
-
-        .hero-form {
-            width: 100%;
-            display: inline-block;
-            padding: 0 145px;
-            margin-top: 50px;
-        }
-    
-            .hero-form > input {
-                display: inline-block;
-                background-color: transparent;
-                border: none;
-                border-bottom: 1px solid rgb(255, 255, 255);
-                padding-bottom: 7px;
-                width: 100%;
-                color: white;
-                margin-bottom: 30px;
-            }
-    
-            ::placeholder { 
-                color: white;
-              }
-    
-            .btn {
-                display: inline-block;
-                background-color: #ea1e63;
-                text-decoration: none;
-                color: white;
-                padding: 8px 30px;
-                font-size: 15px;
-                font-weight: 500;
-                text-transform: capitalize;
-                border-radius: 2px;
-            }
-    
-            .fa-microphone {
-                font-size: 40px;
-                margin-top: 15px;
-              }
 
     .container.content {
         background-color: white;
-        padding-top: 10px;
-        padding-bottom: 80px;
+        padding-top: 40px;
+        margin-bottom: 20px;
     }
 
     .container.footer {
@@ -102,21 +37,18 @@
                 display: inline-block;
                 float: left;
                 width: 50%;
-                background-color: darkred;
             }
 
             .container > .row > .right {
                 display: inline-block;
                 width: 40%;
                 float: right;
-                background-color: rgb(139, 0, 86);
             }
 
 @media (max-width: 1100px) {
     .container > .row {
         width: 800px;
         margin-left: calc( 50% - 400px );
-        background-color: teal;
     }
 }
 
@@ -147,11 +79,141 @@
     }
 }
 
+/*HERO*/
+
+.container.hero {
+    background-color: darkblue;
+    background-image: url(../img/Merknad_2020-02-24_125822.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+    .hero-row > img {
+        height: 40px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .hero-row > h1 {
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+
+    .hero-row > p {
+        font-size: 11px;
+        color: rgb(139, 139, 139);
+        padding: 0 120px;
+    }
 
 
+/*CONTENT*/
+
+.content h2 {
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.content p {
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    line-height: 25px;
+    margin: 20px 0;
+    color: #777;
+}
+
+.content p > a {
+    color: #ea1e63;
+    text-decoration: none;
+}
 
 
+/*FORM*/
 
+.hero-form {
+    width: 100%;
+    display: inline-block;
+    padding: 0 145px;
+    margin-top: 50px;
+}
+
+    .hero-form > input {
+        display: inline-block;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #76cef2;
+        padding-bottom: 7px;
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    ::placeholder { 
+        color: white;
+      }
+
+.form-second {
+width: 100%;
+margin-top: 30px;
+}
+
+.form-second > .form-row {
+    width: 45%;
+    display: inline-block;
+    float: left;
+}
+
+    .form-second > .left {
+        margin-right: 5%;
+    }
+
+    .form-second > .right {
+        margin-left: 5%;
+    }
+
+.form-second > .message-row {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 50px;;
+}
+
+.form-second > input {
+    border: none;
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 10px;
+}
+
+    .form-second > ::placeholder {
+        color: grey;
+    }
+
+/*BUTTON*/
+
+.btn {
+    display: inline-block;
+    background-color: #ea1e63;
+    text-decoration: none;
+    color: white;
+    padding: 8px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 2px;
+}
+
+.btn-two {
+    display: inline-block;
+    float: right;
+    margin-top: 25px;
+}
 
 
 
