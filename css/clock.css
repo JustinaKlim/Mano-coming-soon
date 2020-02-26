@@ -1,30 +1,84 @@
 .clock {
     display: inline-block;
-    float: left;
+    text-align: center;
     width: 100%;
     padding: 0 130px;
     color: white;
-    margin-top: 30px;
 }
 
-    .clock-column {
+    .clock > .clock-column {
         display: inline-block;
         float: left;
         width: 25%;
-        padding: 0;
+        margin: 20px 0;
     }
 
-    .clock-column > h2 {
+    
+
+    .clock > .clock-column > h2 {
+        display: inline-block;
+        width: 100%;
         font-weight: 900;
         font-size: 35px;
         line-height: 35px;
         
     }
 
-    .clock-column > p {
+    .clock > .clock-column > p {
+        display: inline-block;
+        width: 100%;
         font-size: 10px;
         line-height: 10px;
         text-transform: uppercase;
         font-weight: 500;
         margin-top: 10px;
     }
+
+    @media (max-width: 700px) {
+        .clock > .clock-column {
+            width: 50%;
+        }
+
+        .clock > .clock-column:nth-of-type(3),
+        .clock > .clock-column:nth-of-type(4) {
+            margin: 5px 0;
+    }
+    }
+
+    /* 
+    .clock {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+    .clock > .time {
+        display: inline-block;
+        float: left;
+        width: 25%;
+        margin: 20px 0;
+    }
+
+        .clock > .time > .value {
+            display: inline-block;
+            width: 100%;
+            font-size: 64px;
+            line-height: 60px;
+            font-weight: bold;
+        }
+
+        .clock > .time > .label {
+            display: inline-block;
+            width: 100%;
+            text-transform: uppercase;
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+@media (max-width: 700px) {
+    .clock > .time {
+        width: 50%;
+    }
+}
+    */
